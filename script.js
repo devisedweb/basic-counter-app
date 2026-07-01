@@ -7,11 +7,15 @@ let count = 0;
 
 increment.addEventListener("click", function () {
   count += 1;
+  decrement.disabled = false;
   displayCount.textContent = count;
 });
 
 decrement.addEventListener("click", function () {
   count -= 1;
+  if (count == 0) {
+    decrement.disabled = true;
+  }
   displayCount.textContent = count;
 });
 
