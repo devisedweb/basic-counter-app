@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cotainer {
+  width: 120px;
+}
+
+p {
+  width: 100%;
+  height: 50px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-btns {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.increment,
+.decrement {
+  width: 100%;
+}
+
+.reset {
+  width: 100%;
+}
